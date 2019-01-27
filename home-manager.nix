@@ -9,4 +9,5 @@
 
   programs.vim = {
     enable = true;
-  }
+  };
+}
