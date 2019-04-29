@@ -21,6 +21,7 @@ in
     gcc
     gnumake
     unstable.mkl
+    awscli
   ];
 }
 

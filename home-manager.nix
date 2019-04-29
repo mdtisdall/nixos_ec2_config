@@ -16,5 +16,9 @@
     extraConfig.difftool.prompt = "false";
   };
 
+  programs.tmux = {
+    enable = true;
+  };
+
   programs.home-manager.enable = true;
 }
