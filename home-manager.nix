@@ -4,7 +4,7 @@
 
   programs.vim = {
     enable = true;
-    plugins = [ "vim-airline" "vim-fugitive" ];
+    plugins = [ pkgs.vimPlugins.vim-airline pkgs.vimPlugins.vim-fugitive ];
     extraConfig = ''
       filetype plugin indent on
       set nocompatible
